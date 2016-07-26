@@ -1,0 +1,35 @@
+#title{
+	font-size: 20px;
+	color: #28BCED;
+	text-align: center;
+	font-style: bold;
+}
+#description{
+	text-align: center;
+	color: #28BCED;
+	font-size: 20px;
+	font-style: italic;
+}
+#image{
+	width: 25%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+#results{
+
+}
+#retry{
+	display:block;
+	margin: auto;
+}
+p{
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	font-style: italic;
+}
+body{
+	font-family: 'Montserrat', "Times New Roman", Times, serif;
+	background-image: url("http://kaba35.com/wp-content/uploads/2015/11/Savin-NY-Website-Background-Web.jpg");
+}

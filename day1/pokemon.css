@@ -1,0 +1,52 @@
+#pokePic {
+			
+	margin-top: 1%;
+	border: 5px solid black;
+	border-radius: 15px;
+	padding: 0px;
+	width:300px; 
+    height: auto;
+}
+.box {
+	border: 2px black solid;
+	padding: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.line {
+	text-align: center; 
+	font-size: 50px;
+	margin: 10px;
+}
+#progress {
+	margin: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width:50%
+
+}
+.bottomline {
+	padding: 20px;
+	border-bottom: 3px black solid;
+	margin-bottom: 20px;
+	width: 80%;
+	margin: auto;
+}
+.stardust {
+	margin: 20px;
+}
+body {
+	background-image: url("http://cdn.pcwallart.com/images/pixel-pokemon-wallpaper-4.jpg");
+}
+img {
+	display: block;
+	margin: auto;
+}
+div {
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin: auto;
+}

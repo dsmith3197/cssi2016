@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Douglas Anthony's Profile</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+    .container {
+    padding: 80px 120px;
+    }
+    .person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 80%;
+      height: 80%;
+      opacity: 0.7;
+    }
+    .person:hover {
+      border-color: #f1f1f1;
+    }
+    .carousel-inner img {
+        -webkit-filter: grayscale(90%);
+        filter: grayscale(90%); /* make all photos black and white */ 
+        width: 100%; /* Set width to 100% */
+        margin: auto;
+    }
+
+    .carousel-caption h3 {
+        color: #fff !important;
+    }
+
+    @media (max-width: 600px) {
+        .carousel-caption {
+            display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+        }
+    }
+    img {
+      display: block;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="https://scontent.ford1-1.fna.fbcdn.net/v/t1.0-9/13254350_10208295131088121_1170080211051081970_n.jpg?oh=1093ad85f24f497d7e61d628d864802d&oe=58347D9B" alt="personal picture">
+        </div>
+
+        <div class="item">
+          <img src="https://scontent.ford1-1.fna.fbcdn.net/v/t1.0-9/13260209_10208295117567783_1874113177404195627_n.jpg?oh=594676029d3a0b929a50f34e85648401&oe=583080F0" alt="personal picture">
+        </div>
+
+        <div class="item">
+          <img src="https://scontent.ford1-1.fna.fbcdn.net/v/t1.0-9/13233037_10208295115887741_2502248665089347231_n.jpg?oh=5b426d1a046cc2fb560b292245c31061&oe=58316AB1" alt="personal picture">
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <div class="container text-center">
+      <h3>Douglas Anthony Smith</h3>
+      <p><em>Harvard University</em></p>
+      <p>My name is Douglas Smith. I am an rising freshman at Harvard University, planning to concentrate in economics and earn a secondary in computer science.  I plan to also earn a masters degree in computer science. This is my profile.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4">
+        <p class="text-center"><strong>Facebook</strong></p><br>
+        <a href="https://www.facebook.com/doug.smith.1447342">
+          <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="Facebook" class="img-circle person">
+        </a>
+      </div>
+      <div class="col-sm-4">
+        <p class="text-center"><strong>Twitter</strong></p><br>
+        <a href="https://twitter.com/doug_3197">
+          <img src="https://pbs.twimg.com/profile_images/666407537084796928/YBGgi9BO.png" alt="Twitter" class="img-circle person">
+        </a>
+      </div>
+      <div class="col-sm-4">
+        <p class="text-center"><strong>GitHub</strong></p><br>
+        <a href="https://github.com/dsmith3197">
+          <img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" alt="GitHub" class="img-circle person">
+        </a>   
+      </div>
+    </div>
+
+    <div class="container text-center">
+      <h3>Major Projects</h3>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4">
+        <p class="text-center"><strong>CS50</strong></p><br>
+        <a href="https://github.com/dsmith3197/CS50">
+          <img src="http://static1.squarespace.com/static/505498e6e4b0088c255f1bd8/515ea474e4b054dae403aa5e/515ea476e4b069d3c5023ad7/1365156983284/Course_image.jpg" alt="CS50" class="img-circle person">
+        </a>
+      </div>
+      <div class="col-sm-4">
+        <p class="text-center"><strong>CSSI</strong></p><br>
+        <a href="https://github.com/dsmith3197/dsmith3197.github.io">
+          <img src="https://www.google.com/edu/images/resources/programs/computer-science-summer-institute.jpg" alt="CSSI" class="img-circle person">
+        </a>
+      </div>
+      <div class="col-sm-4">
+        <p class="text-center"><strong>Photography</strong></p><br>
+        <a>
+          <img src="https://cdn.creativelive.com/fit/https%3A%2F%2Fcdn.creativelive.com%2Fagc%2Fcourses%2F5158-1.jpg/1600" alt="photography" class="img-circle person">
+        </a>   
+      </div>
+    </div>
+</body>
+</html>
