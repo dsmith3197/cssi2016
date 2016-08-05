@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Students</title>
+
+</head>
+<body>
+	<h1>Students<h1>
+	<form action="" method="post">
+		<h3>Name: <input type="text" name="name"/></h3>
+        <h3>New Name: <input type="text" name="new_name"/></h3>
+        <h3>New College: <input type="text" name="new_college"/></h3>
+        <input type="submit" name="filter"/>
+     <br>
+	</form>
+
+	<ul>
+		{% for student in students %}
+		<li> Student: {{student['name']}}  College: {{student['university']}}</li>
+		{% endfor %}
+	</ul>
+
+	<a href="/student">Add a Student</a>
+	<a href="/displaystudents">Display Students</a>
+
+</body>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add or Remove Friends</title>
+</head>
+<body>
+	<h1>Friends List</h1>
+		<ul>
+			{% for friend in friends %}
+			
+			<li> Name: {{ friend.name }} Username: {{ friend.username }}
+				<form action="/remove_friend" method="post">
+					<input type="hidden" name="friend_id" value= "{{ friend.user_id }}"/>
+					<input type="submit" value="Remove Friend"/>
+				</form>
+			</li>
+			
+			{% endfor %}
+		</ul>
+	<h1>Add Friends</h1>
+		<ul>
+			{% for friend in non_friends %}
+
+			<li> Name: {{ friend.name }} Username: {{ friend.username }} 
+				<form action="/add_friend" method="post">
+					<input type="hidden" name="friend_id" value= "{{ friend.user_id }}"/>
+					<input type="submit" value="Add Friend"/>
+				</form>
+			</li>
+
+			{% endfor %}
+		</ul>
+
+</body>
+</html>

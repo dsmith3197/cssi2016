@@ -85,7 +85,7 @@ class AboutHandler(webapp2.RequestHandler):
 
 
 app = webapp2.WSGIApplication([
-    ('/', MainHandler),
+    ('/', ProfileHomeHandler),
     ('/profile', ProfileHomeHandler),
     ('/resume', ResumeHandler),
     ('/projects', ProjectsHandler),

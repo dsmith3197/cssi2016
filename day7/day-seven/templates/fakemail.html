@@ -1,0 +1,23 @@
+<html>
+ <body>
+   <h1>FakeMail</h1>
+   <h2>Welcome {{name}}</h2>
+   <ul>
+     {% for email in emails %}
+       <li>
+         {% if 'help' in email.subject or 'money' in email.subject or 'account' in email.subject %}
+            (SPAM)
+         {% endif %}
+         {% if email.unread %}
+           (unread)
+         {% endif %}
+         {{email.subject}}</li>
+     {% endfor %}
+   </ul>
+
+    <form method="GET">
+      Name <input type="text" name="name"/>
+      <input type="submit"/>
+    </form>
+ </body>
+</html>

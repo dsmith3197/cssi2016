@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Upload Profile Picture</title>
+
+</head>
+<body>
+	<h1>Welcome {{ name }}</h1>
+	<h1>Upload Profile Picture<h1>
+	<form action="{{ url }}" method="post" enctype="multipart/form-data">
+        <h3>Profile Picture: <input type="file" name="profile_pic"/></h3>
+        <input type="submit" value="Upload"/>
+	</form>
+	<br>
+	<a href="/login">Login</a>
+</body>
